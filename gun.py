@@ -62,6 +62,7 @@ class Ball:
         if self.x >= 790:
             self.vx = -self.vx * 0.8
             self.x = 790
+        
 
     def draw(self):
         pygame.draw.circle(
